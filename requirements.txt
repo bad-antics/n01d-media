@@ -1,0 +1,20 @@
+# N01D Media Suite Dependencies
+
+# GUI Framework
+customtkinter>=5.2.0
+
+# Image Processing
+Pillow>=10.0.0
+
+# Audio Playback
+pygame>=2.5.0
+
+# PDF Support
+PyMuPDF>=1.23.0
+
+# Video Playback (optional - requires VLC installed)
+python-vlc>=3.0.0
+
+# System dependencies (install separately):
+# - FFmpeg (required for encoding/conversion)
+# - VLC Media Player (optional for video playback)

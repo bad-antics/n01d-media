@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=N01D Media Suite
+Comment=Unified Media Player, Editor & Encoder
+Exec=/home/antics/nullsec/n01d-media/launch.sh
+Icon=multimedia-player
+Terminal=false
+Type=Application
+Categories=AudioVideo;Audio;Video;Player;
+Keywords=media;video;audio;image;pdf;encoder;
+StartupNotify=true
