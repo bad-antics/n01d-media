@@ -30,8 +30,9 @@ from modules.audio_player import AudioPlayer
 from modules.image_editor import ImageEditor
 from modules.pdf_viewer import PDFViewer
 from modules.encoder import MediaEncoder
+from modules.screen_recorder import ScreenRecorder
 
-VERSION = "1.0.0"
+VERSION = "1.1.0"
 APP_NAME = "N01D Media"
 
 class N01DMedia(ctk.CTk):
@@ -104,6 +105,7 @@ class N01DMedia(ctk.CTk):
             ("image", "🖼️ Image Editor", "View & edit images"),
             ("pdf", "📄 PDF Viewer", "Read PDF documents"),
             ("encoder", "⚙️ Encoder", "Convert media formats"),
+            ("recorder", "🔴 Screen Recorder", "Record screen & webcam"),
         ]
         
         for module_id, label, tooltip in modules:
@@ -200,6 +202,7 @@ class N01DMedia(ctk.CTk):
             "image": ImageEditor,
             "pdf": PDFViewer,
             "encoder": MediaEncoder,
+            "recorder": ScreenRecorder,
         }
         
         module_class = module_map.get(module_id)
